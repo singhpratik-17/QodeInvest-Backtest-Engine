@@ -6,7 +6,7 @@ This document outlines the design decisions, component modules, and baseline ass
 
 ## 🏛️ Module Breakdown
 
-### 1. Master Orchestrator Loop (`backtest_orchestrator.py`)
+### 1. Master Orchestrator Loop (`backtest_engine.py`)
 * **Role:** Central transaction engine tracking step execution lines across sequential rebalance anchors. 
 * **Key Feature:** Combines lookahead data shielding with forward-window pricing metrics, applying strict assertion checkpoints to ensure matrix integrity before calling down-stream reporting loops.
 
